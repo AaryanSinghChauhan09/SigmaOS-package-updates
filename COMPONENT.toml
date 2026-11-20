@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-package-updates"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Package update checker (severity, sources, auto-update policy)"
+upstream = []
+
+[contract]
+provides = ["sigmapackageupdates"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
